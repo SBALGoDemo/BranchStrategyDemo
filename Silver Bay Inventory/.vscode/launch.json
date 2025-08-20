@@ -1,5 +1,21 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Publish: SBDEV_BRAD",
+      "type": "al",
+      "request": "launch",
+      "tenant": "silverbayseafoods.com",
+      "environmentType": "Sandbox",
+      "environmentName": "SBDEV_BRAD",
+      "startupObjectId": 22,
+      "breakOnError": "All",
+      "breakOnRecordWrite": "None",
+      "launchBrowser": true,
+      "enableSqlInformationDebugger": true,
+      "enableLongRunningSqlStatements": true,
+      "longRunningSqlStatementsThreshold": 500,
+      "numberOfSqlStatements": 10
+    }
+  ]
 }
